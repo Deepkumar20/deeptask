@@ -1,0 +1,100 @@
+
+#clients {
+  padding: 60px 0;
+}
+
+#clients img {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+#clients img:hover {
+  opacity: 1;
+}
+
+#clients .swiper-pagination {
+  margin-top: 30px;
+  position: relative;
+}
+
+#clients .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid black;
+}
+
+#clients .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: black;
+}
+
+
+
+@media (max-width:900px) {
+
+  #max{
+    width: 300px;
+    margin-left: 70%;
+  }
+
+  #gift{
+    margin-bottom: 50px;
+  }
+  
+
+}
+
+@media (max-width:800px){
+  #max{
+    margin-left: 25%;
+  }
+
+}
+
+@media (max-width:500px) {
+
+  
+  #cast{
+    width: 510px;
+    margin-left: -200px;
+    
+  }
+
+  #casl{
+    width: 510px;
+    margin-left:-70px;
+    
+  }
+
+  #imm{
+    margin-left: 5px;
+  }
+
+  #hom{
+    margin-left: -350px;
+    margin-top: 240px;
+
+  }
+
+  .txt{
+    font-size:22px;
+  }
+
+  #rol{
+    width:390px;
+  }
+
+  #cas{
+    width: 5000px;
+  }
+
+
+}
+
+
+
+
+
+
+
